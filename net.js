@@ -53,7 +53,7 @@ d3.json("data.json", function(error, graph) {
   .selectAll("cirle")
             .data(graph.nodes) 
   .enter().append("svg:image")
-  .attr("xlink:href",(d,i) =>     "./data/"+ graph.nodes[i].id + ".png").attr("stroke", "black");
+  .attr("xlink:href",(d,i) =>     "./data/"+ graph.nodes[i].id + ".PNG").attr("stroke", "black");
           console.log(graph.links)
 
 
