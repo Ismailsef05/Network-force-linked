@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vega-embed@5"></script>
+    <title> Network</title>
+    <style>
+       
+
+    div.tooltip {	
+        position: absolute;			
+        text-align: center;			
+        width: 60px;					
+        height: 28px;					
+        padding: 2px;				
+        font: 12px sans-serif;		
+        background: lightsteelblue;	
+        border: 0px;		
+        border-radius: 10px;			
+        pointer-events: none;			
+    }
+
+    .cont{
+        display: flex;
+        justify-content: space-between;
+    }
+    </style>
+</head>
+
+<body>
+    <h1>Network Assignment</h1>
+    <h2>Hypothesis</h2>
+    <p>
+      Morocco has the most strategic location of all Africa. 
+    </p>  
+    <p>I will create nodes of countries and link them between them if a country is in a 6 000 km range from the other border of other countries.
+        <br>I chose the countries which have a significant economical power. Then we are going to see which country from the Africa has most edges. </p>
+    <svg width="700" height="500"></svg>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
+    <script src = "net.js">
+    </script>
+    <div id = "bar">
+  <script>
+            const spec1 = "bar2.vg.json";
+            vegaEmbed("#bar", spec1)
+              // result.view provides access to the Vega View API
+              .then(result => console.log(result))
+              .catch(console.warn);
+          </script>
+              
+    </div>
+    <div>
+
+    
+ We can see that Morocco has more edges than the countries I chose to compare with. The choice of countries was not easy to make in order to stay as fair as possible.
+ <br> My two main sources were: Google maps, and this website to know the exact distances: <br>
+ <a href = "https://distancecalculator.globefeed.com/Distance_Between_Countries_Result.asp?fromplace=Morocco&toplace=China" target = blank>
+    https://distancecalculator.globefeed.com/Distance_Between_Countries_Result.asp?fromplace=Morocco&toplace=China
+  </a> 
+</div>
+</body>

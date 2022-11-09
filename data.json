@@ -1,0 +1,202 @@
+{
+  "nodes": [
+    {
+      
+      "id": "Morocco"
+    },
+    {
+      
+      "id": "Egypt"
+      
+    },
+    {
+     
+      "id": "South africa"
+    },
+    {
+      "id": "France"
+    },
+    {
+      "id": "Spain"
+    },
+    {
+      "id": "Portugal"
+    },
+    {
+      "id": "UK"
+    },
+    {
+      "id": "Turkey"
+    },
+    {
+      "id": "India"
+    },
+    {
+      "id": "China"
+    },
+    {
+      "id": "Japan"
+    },
+    {
+      "id": "USA"
+    },
+    {
+      "id": "Brazil"
+    },
+    {
+      "id": "South korea"
+    },
+    {
+      "id": "Somalia"
+    },
+    {
+      "id": "Vietnam"
+    }
+  ],
+  "links": [
+
+    {
+      "source_id": "Morocco",
+      "target_id": "Spain"
+    },
+    {
+      "source_id": "Morocco",
+      "target_id": "Portugal"
+    },
+    {
+      "source_id": "Morocco",
+      "target_id": "France"
+    },
+
+    {
+      "source_id": "Morocco",
+      "target_id": "UK"
+    },
+     {
+      "source_id": "Morocco",
+      "target_id": "Brazil"
+    }
+    ,
+    {
+      "source_id": "Morocco",
+      "target_id": "USA"
+    },
+    {
+      "source_id": "Morocco",
+      "target_id": "Turkey"
+    }
+    ,{
+      "source_id": "Egypt",
+      "target_id": "Turkey"
+    },{
+      "source_id": "Egypt",
+      "target_id": "Spain"
+    },{
+      "source_id": "Egypt",
+      "target_id": "France"
+    },{
+      "source_id": "Egypt",
+      "target_id": "India"
+    },{
+      "source_id": "South africa",
+      "target_id": "Brazil"
+    },{
+      "source_id": "South africa",
+      "target_id": "India"
+    },{
+      "source_id": "USA",
+      "target_id": "China"
+    },{
+      "source_id": "USA",
+      "target_id": "Japan"
+    },{
+      "source_id": "USA",
+      "target_id": "Brazil"
+    },{
+      "source_id": "USA",
+      "target_id": "Portugal"
+    },{
+      "source_id": "USA",
+      "target_id": "Spain"
+    },{
+      "source_id": "USA",
+      "target_id": "UK"
+    },{
+      "source_id": "USA",
+      "target_id": "France"
+    },{
+      "source_id": "France",
+      "target_id": "UK"
+    },{
+      "source_id": "France",
+      "target_id": "Spain"
+    },{
+      "source_id": "France",
+      "target_id": "Portugal"
+    },{
+      "source_id": "Spain",
+      "target_id": "Portugal"
+    },{
+      "source_id": "Turkey",
+      "target_id": "France"
+    },{
+      "source_id": "Turkey",
+      "target_id": "Spain"
+    },{
+      "source_id": "Turkey",
+      "target_id": "Portugal"
+    },{
+      "source_id": "India",
+      "target_id": "China"
+    },{
+      "source_id": "China",
+      "target_id": "Japan"
+    },{
+      "source_id": "Turkey",
+      "target_id": "France"
+    },{
+      "source_id": "South korea",
+      "target_id": "Japan"
+    },{
+      "source_id": "South korea",
+      "target_id": "China"
+    },{
+      "source_id": "South korea",
+      "target_id": "USA"
+    },{
+      "source_id": "South korea",
+      "target_id": "India"
+    },{
+      "source_id": "South korea",
+      "target_id": "Vietnam"
+    },{
+      "source_id": "Vietnam",
+      "target_id": "Japan"
+    },{
+      "source_id": "Vietnam",
+      "target_id": "China"
+    },{
+      "source_id": "Vietnam",
+      "target_id": "India"
+    },{
+      "source_id": "Somalia",
+      "target_id": "Vietnam"
+    },{
+      "source_id": "Somalia",
+      "target_id": "China"
+    },{
+      "source_id": "Somalia",
+      "target_id": "India"
+    },{
+      "source_id": "Somalia",
+      "target_id": "China"
+    },{
+      "source_id": "Egypt",
+      "target_id": "UK"
+    },{
+      "source_id": "Egypt",
+      "target_id": "China"
+    }
+   
+  ]
+}
