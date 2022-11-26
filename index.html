@@ -21,7 +21,7 @@
     }
 
     .cont{
-        display: flex;
+        
         justify-content: space-between;
     }
     </style>
@@ -40,16 +40,19 @@
     <link href="https://fonts.googleapis.com/css?family=Architects+Daughter" rel="stylesheet">
     <script src = "net.js">
     </script>
-    <div id = "bar">
-  <script>
-            const spec1 = "bar2.vg.json";
-            vegaEmbed("#bar", spec1)
-              // result.view provides access to the Vega View API
-              .then(result => console.log(result))
-              .catch(console.warn);
-          </script>
-              
-    </div>
+    <p>
+
+      <div id = "bar">
+        <script>
+                  const spec1 = "bar2.vg.json";
+                  vegaEmbed("#bar", spec1)
+                    // result.view provides access to the Vega View API
+                    .then(result => console.log(result))
+                    .catch(console.warn);
+                </script>
+                    
+          </div>
+    </p>
     <div>
 
     
